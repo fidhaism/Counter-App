@@ -1,0 +1,7 @@
+This is a simple counter application built using React and Redux. Here’s a breakdown of what the code does:
+
+The CounterMain component is a functional component that displays a counter on the screen. The counter has three buttons: Increase, Reset, and Decrease.
+The useSelector hook is used to access the current value of the counter from the Redux store. This value is displayed on the screen.
+The useDispatch hook is used to dispatch actions to the Redux store. These actions are defined in the ../redux/slice file.
+The handleIncrease, handleReset, and handleDecrease functions are event handlers for the Increase, Reset, and Decrease buttons respectively. When a button is clicked, the corresponding action is dispatched to the Redux store.
+The return statement of the component renders the counter and the buttons on the screen. It uses Bootstrap classes for styling.
